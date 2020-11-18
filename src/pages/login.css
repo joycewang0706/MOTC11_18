@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 1440px;
+  height: 900px;
+}
+
+.container {
+  padding: relative;
+  width: 50rem;
+}
+
+.paneleft {
+  width: 520px;
+  height: 900px;
+  background-image: linear-gradient(94deg, #2c5e90 16%, #073b70 87%);
+  position:absolute;
+  top:0%;
+  left:0%;
+}
+
+.panel {
+  width: 428px;
+  height: 462px;
+
+  margin: 174px 271px 264px 741px;
+  position: absolute;
+
+  display: flex;
+  justify-content: center;
+}
+
+span {
+  display: block;
+}
+
+.type_in #login {
+  font-family: NotoSansCJKtc;
+  font-size: 36px;
+  font-weight: bolder;
+  
+  letter-spacing: 3.95px;
+  color: #002b58;
+}
+
+.type_in #desc {
+  font-family: NotoSansCJKtc;
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: 1.97px;
+  color: #002b58;
+}
+
+.form {
+  width: 600px;
+  margin-top: 50px;
+  padding-top:10px;
+}
+
+span {
+  font-family: NotoSansCJKtc;
+  font-size: 16px;
+  font-weight: bolder;
+  letter-spacing: 1.75px;
+  color: #002b58;
+}
+
+/*form .input {
+  margin: 0;
+  height: 0;
+  outline: none;
+  border: none;
+  width: 100%;
+  height: 50px;
+  border-radius: 4px;
+  box-shadow: 5px 5px 4px 0 rgba(27, 27, 27, 0.07);
+  border: solid 1px rgba(212, 212, 212, 0.59);
+  background-color: #ffffff;
+  */
+  /*position*/
+ /* display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1rem;
+  cursor: pointer;
+}*/
+.input  {
+  outline: none;
+  border: none;
+  
+  width: 500px;
+  height: 50px;
+  border-radius: 4px;
+  box-shadow: 5px 5px 4px 0 rgba(27, 27, 27, 0.07);
+  border: solid 1px rgba(212, 212, 212, 0.59);
+  background-color: #ffffff;
+  /*font*/
+  font-family: NotoSansCJKtc;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 2.9px;
+  color: #002b58;
+
+  /*position*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1rem;
+  cursor: pointer;
+  letter-spacing: 3px;
+}
+.Blogin {
+  width: 330px;
+  height: 58px;
+  margin-top:10%;
+  margin-left:5%;
+  border-radius: 7px;
+  border: none;
+  color: #ffffff;
+  box-shadow: 0 2px 4px 0 rgba(37, 40, 65, 0.24);
+  background-image: linear-gradient(94deg, #2c5e90 16%, #073b70 87%);
+  font-size:15px;
+  cursor: pointer;
+}
+/* input[type="button"] {
+    width: 319px;
+    height: 58px;
+    margin: 10%;
+    border-radius: 7px;
+    border: none;
+    color: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(37, 40, 65, 0.24);
+    background-image: linear-gradient(94deg, #2c5e90 16%, #073b70 87%);
+    cursor: pointer;
+  }
+  */
